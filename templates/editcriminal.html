@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table border="1">
+            <tr>
+                <td>CRIMINAL NAME</td>
+                <td><input type="text"name="Criminalname"value={{val.Criminalname}}></td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><input type="text"name="Address"value={{val.Address}}></td>
+            </tr>
+            <tr>
+                <td>DETAILS</td>
+                <td><input type="text"name="Details"value={{val.Details}}></td>
+            </tr>
+            <tr>
+                <td>IMAGE</td>
+                <td><img src="{{val.Image.url}}" height="100px" width="100px" alt=""><input type="file"name="Image"></td>
+            </tr>
+            <tr>
+                <td>TYPE</td>
+                <td><input type="text"name="Type"value={{val.Type}}></td>
+            </tr>
+            <tr class="one">
+                <td><input type="submit" value="update"></td>
+            </tr>
+        </table> 
+    </form>
+   
+</body>
+</html>

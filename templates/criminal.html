@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table  border="1">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>ADDRESS</th>
+            <th>LOCATION</th>
+            <th>PHONE</th>
+            <th>IMAGE</th>
+            <th>TYPE</th>
+            <th>EMAIL</th>
+            <th>POLICE STATION ID</th>
+            <th></th>
+            <th></th>
+        </tr>
+        {% for i in val %}
+        <tr class="one">
+            <td>{{ forloop.counter }}</td>
+            <td>{{ i.Criminalname }}</td>
+            <td>{{ i.Address }}</td> 
+            <td>{{ i.Details }}</td>
+            <td></td>
+            
+            <td><img src="{{i.Image.url}}" width="120" height="80"></td>
+            <td>{{ i.Type }}</td>
+            
+            <td></td><td></td>
+            <td><a href="edit_criminal/{{ i.id }}" class="edit">edit</a></td>
+            <td><a href="delete_criminal/{{ i.id }}"class="delete">delete</a></td>
+        </tr>
+        {% endfor %}
+
+        <tr class="two">
+            <td colspan="9" align="center">
+                <a href="/add_new_criminal"class="delete">add criminals</a>
+                </td>
+        </tr>
+    </table>
+</body>
+</html>

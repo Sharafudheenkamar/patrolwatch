@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* display: flex;
+    justify-content:center ; */
+    height: 100vh;
+    /* align-items: center;
+    background-image: url(img/security_guard_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(6px);
+    background-position: center; */
+  
+}
+
+.one{
+    border: 0px solid blue;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* backdrop-filter: blur(6px); */
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+#abxd{
+    margin-left: 10%;
+
+    margin-bottom: 10px;
+}
+input{
+   
+    height: 30px;
+    width: 150px;
+    background: transparent;
+    margin-top:20px ;
+}
+.btn{
+    margin: 30px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+.img{
+    height: 100vh;
+    width: 45%;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-vector/security-guard-concept-set-surveillance-ptrotection-idea-bodyguard-uniform-guiding-client-safety-guard-department-monitoring-cctv-vector-flat-illustration_613284-448.jpg?ga=GA1.1.367697922.1699939895&semt=ais_hybrid);
+    margin-top:-330px;
+}
+input{
+    width: 250px;
+}

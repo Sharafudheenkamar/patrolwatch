@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table border="1">
+            <tr>
+                <td>NAME</td>
+                <td><input type="text"name="Name" value="{{val.Name}}"></td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><input type="text"name="Address"value="{{val.Address}}"></td>
+            </tr>
+            <tr>
+                <td>PHONE</td>
+                <td><input type="text"name="Phone"value="{{val.Phone}}"></td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="text"name="Email"value="{{val.Email}}"></td>
+            </tr>
+            <tr>
+                <td>LOCATION</td>
+                <td><input type="text"name="Location"value="{{val.Location}}"></td>
+            </tr>
+            <tr class="one">
+                <td><input type="submit" value="update"></td>
+            </tr>
+        </table> 
+    </form>
+    
+</body>
+</html>

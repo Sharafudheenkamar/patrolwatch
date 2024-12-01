@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+/*height: 100vh;*/
+}
+
+
+form{
+    margin-left: 400px;
+    margin-top:150px;
+    background-color: rgb(228, 243, 243);
+     width:450px;
+    height: 315px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px; 
+} 
+
+.one{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    align-items: center;
+
+}
+.one label{
+    font-size: 18px;
+    color: rgb(6, 6, 7);
+    width: 30%;
+
+}
+.one input{
+    width: 65%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+}
+button{
+    margin-left: 200px;
+
+}
+h2{
+    padding-left: 90px;
+    padding-bottom: 30px;
+    padding-top:20px ;
+}
+
+
+
+

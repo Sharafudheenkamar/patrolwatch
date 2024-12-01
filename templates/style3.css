@@ -1,0 +1,35 @@
+table{
+    border-collapse: collapse;
+}
+.one{
+    height: 75px;
+}
+.two{
+    height: 50px;
+}
+body
+{
+background-color: rgb(228, 243, 245);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.edit{
+    background-color: rgb(166, 207, 215);;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.delete{
+    background-color: rgb(166, 207, 215);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.submit{
+    background-color: rgb(166, 207, 215);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
