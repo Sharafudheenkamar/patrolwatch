@@ -17,5 +17,9 @@ urlpatterns = [
     path('view_fire',view_fire.as_view(),name="view_fire"),
     path('delete_fire/<int:f_id>', delete_f.as_view(), name="delete_f"),
     path('edit_fire/<int:id>',Edit_fire.as_view(),name='Edit_fire'),
+
+
+    path('video_feed/', video_feed, name='video_feed'),
+    path('index/',index,name='index')
     
 ]
